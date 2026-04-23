@@ -1,5 +1,5 @@
 {% set name = "bio" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.3" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: a22dc8ca52562cf621e0224c7b69b40b68366e3c832af25861f3fa2583e6a83b
+  sha256: b931ed0c94498bacb8c7dbd87c680672dbbae059299a3be1ee8c9f2b56b5816f
 
 build:
   noarch: generic
